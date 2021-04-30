@@ -1,0 +1,144 @@
+2021-04-28T11:54:04.004Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting MainApp using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 17600 (C:\Users\user\eclipse-workspace\POC6_USER_1\target\classes started by user in C:\Users\user\eclipse-workspace\POC6_USER_1)
+2021-04-28T11:54:04.004Z] [org.springframework.boot.SpringApplication] [main] [660] [INFO ] No active profile set, falling back to default profiles: default
+2021-04-28T11:54:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-28T11:54:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [188] [INFO ] Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2021-04-28T11:54:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+2021-04-28T11:54:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+2021-04-28T11:54:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-28T11:54:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+2021-04-28T11:54:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 3460 ms
+2021-04-28T11:54:07.007Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28T11:54:08.008Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-28T11:54:08.008Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-28T11:54:08.008Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-28T11:54:08.008Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration boolean -> org.hibernate.type.BooleanType@47331624
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration boolean -> org.hibernate.type.BooleanType@47331624
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@47331624
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2e90429
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration true_false -> org.hibernate.type.TrueFalseType@5fbfec1
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration yes_no -> org.hibernate.type.YesNoType@394b6949
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration byte -> org.hibernate.type.ByteType@770ebf3
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration byte -> org.hibernate.type.ByteType@770ebf3
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@770ebf3
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration character -> org.hibernate.type.CharacterType@a6cd517
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration char -> org.hibernate.type.CharacterType@a6cd517
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@a6cd517
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration short -> org.hibernate.type.ShortType@35f721d0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration short -> org.hibernate.type.ShortType@35f721d0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@35f721d0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration integer -> org.hibernate.type.IntegerType@170780ff
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration int -> org.hibernate.type.IntegerType@170780ff
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@170780ff
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration long -> org.hibernate.type.LongType@74002fea
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration long -> org.hibernate.type.LongType@74002fea
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Long -> org.hibernate.type.LongType@74002fea
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration float -> org.hibernate.type.FloatType@6c7d08bf
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration float -> org.hibernate.type.FloatType@6c7d08bf
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6c7d08bf
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration double -> org.hibernate.type.DoubleType@203db94e
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration double -> org.hibernate.type.DoubleType@203db94e
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@203db94e
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5efdfcfb
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5efdfcfb
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@4184900a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@4184900a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration string -> org.hibernate.type.StringType@265c224a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.String -> org.hibernate.type.StringType@265c224a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@b9c800e
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@63dc26ef
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration url -> org.hibernate.type.UrlType@7b19eb71
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.net.URL -> org.hibernate.type.UrlType@7b19eb71
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration Duration -> org.hibernate.type.DurationType@508ded7f
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@508ded7f
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration Instant -> org.hibernate.type.InstantType@41d52312
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@41d52312
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3fab0751
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3fab0751
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@46f31254
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@46f31254
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1e10f507
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1e10f507
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@67750e89
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@67750e89
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@36c2c71d
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@36c2c71d
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5bcd8efe
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5bcd8efe
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration date -> org.hibernate.type.DateType@18a9849f
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.sql.Date -> org.hibernate.type.DateType@18a9849f
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration time -> org.hibernate.type.TimeType@24e21e2a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@24e21e2a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration timestamp -> org.hibernate.type.TimestampType@5f7dd8b8
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5f7dd8b8
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5f7dd8b8
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@41f9ce39
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration calendar -> org.hibernate.type.CalendarType@3313f9d6
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3313f9d6
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3313f9d6
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2365e09a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@7e50ab21
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration locale -> org.hibernate.type.LocaleType@635f8fcc
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@635f8fcc
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration currency -> org.hibernate.type.CurrencyType@7f92b928
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7f92b928
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration timezone -> org.hibernate.type.TimeZoneType@a80f332
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@a80f332
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration class -> org.hibernate.type.ClassType@7af8ca8a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7af8ca8a
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@148086ad
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@148086ad
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@201777e
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration binary -> org.hibernate.type.BinaryType@23c106a3
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration byte[] -> org.hibernate.type.BinaryType@23c106a3
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration [B -> org.hibernate.type.BinaryType@23c106a3
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5d6f1345
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5d6f1345
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5d6f1345
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration row_version -> org.hibernate.type.RowVersionType@6a51f0a0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration image -> org.hibernate.type.ImageType@3aa7b3b9
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration characters -> org.hibernate.type.CharArrayType@763003b0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration char[] -> org.hibernate.type.CharArrayType@763003b0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration [C -> org.hibernate.type.CharArrayType@763003b0
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7684b9e5
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7684b9e5
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7684b9e5
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration text -> org.hibernate.type.TextType@6082c065
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration ntext -> org.hibernate.type.NTextType@1f96ba3f
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration blob -> org.hibernate.type.BlobType@65625c52
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@65625c52
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1335ab54
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration clob -> org.hibernate.type.ClobType@4ef289cc
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4ef289cc
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration nclob -> org.hibernate.type.NClobType@93ff6da
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@93ff6da
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3d967c87
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@40856a88
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration serializable -> org.hibernate.type.SerializableType@56491b14
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration object -> org.hibernate.type.ObjectType@5c9ed625
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5c9ed625
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4a231f8e
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6026d711
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3e36738b
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3ac0e067
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@68cd47de
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3e858b89
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@33221df9
+2021-04-28T11:54:08.008Z] [org.hibernate.type.BasicTypeRegistry] [task-1] [157] [DEBUG] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@e5c1022
+2021-04-28T11:54:09.009Z] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-28T11:54:09.009Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+2021-04-28T11:54:09.009Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+2021-04-28T11:54:09.009Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-28T11:54:09.009Z] [org.hibernate.type.spi.TypeConfiguration] [task-1] [152] [DEBUG] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3b86a7e4] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@1fbbac73]
+2021-04-28T11:54:10.010Z] [org.hibernate.type.spi.TypeConfiguration] [task-1] [157] [DEBUG] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3b86a7e4] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@43240a5c]
+2021-04-28T11:54:10.010Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-28T11:54:10.010Z] [org.hibernate.type.spi.TypeConfiguration] [task-1] [205] [TRACE] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@43240a5c] for TypeConfiguration
+2021-04-28T11:54:10.010Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-28T11:54:11.011Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28T11:54:11.011Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [160] [INFO ] Context refreshed
+2021-04-28T11:54:11.011Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [163] [INFO ] Found 1 custom documentation plugin(s)
+2021-04-28T11:54:11.011Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [41] [INFO ] Scanning for api listing references
+2021-04-28T11:54:11.011Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+2021-04-28T11:54:12.012Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [55] [INFO ] Spring Data repositories initialized!
+2021-04-28T11:54:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started MainApp in 9.261 seconds (JVM running for 10.18)
+2021-04-28T11:54:12.012Z] [com.poc6.user.MainApp] [main] [15] [INFO ] Main Application has Started
