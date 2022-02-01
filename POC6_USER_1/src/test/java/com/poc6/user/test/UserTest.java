@@ -183,7 +183,7 @@ private MockMvc mockMvc;
 	
 	  @Test 
 	public void deleteUserById() throws Exception{ 
-	  MvcResult result =  mockMvc.perform(delete("/users1/deleteUser/15").contentType(MediaType.APPLICATION_JSON_VALUE)).andDo(print()).
+	  MvcResult result =  mockMvc.perform(delete("/users/deleteUser/15").contentType(MediaType.APPLICATION_JSON_VALUE)).andDo(print()).
 	  andExpect(status().isOk()).andReturn(); 
 	  String resultContext=result.getResponse().getContentAsString(); 
 	  Response response=objectMapper.readValue(resultContext, Response.class);
