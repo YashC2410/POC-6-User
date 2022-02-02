@@ -16,4 +16,8 @@ public class Test {
 		System.out.println("Subtraction is: "+(a-b));
 	}
 	
+	public void mul(int a,int b) {
+		System.out.println("Multiplication is: "+(a*b));
+	}
+	
 }
